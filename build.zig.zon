@@ -1,0 +1,17 @@
+.{
+    .name = .ffmpeg,
+    .version = "9.1.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/FFmpeg/FFmpeg.git#74e4393595cf2b5857f0da925c4e0dd74ea306e5",
+            .hash = "N-V-__8AAMvclAUqdfownlct-o9QU8ml4wgcrGxjBYGsAFJe",
+        },
+    },
+    .minimum_zig_version = "0.17.1",
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .fingerprint = 0x2ffce39e0ce73d1d,
+}
